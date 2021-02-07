@@ -16,7 +16,7 @@
     let word;
     let loc = 0;
     let startTime;
-    let isPlaying = false;
+    let isPlaying = false; //play中かどうか、ゲーム中にクリックして最初に戻らないように
 
     const target = document.getElementById("target");
 
